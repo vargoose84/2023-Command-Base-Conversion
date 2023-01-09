@@ -58,7 +58,8 @@ public class RobotContainer {
 
   private boolean isIntegratedSteering = true;
   SwerveAutoBuilder autoBuilder;
-  List<PathPlannerTrajectory> autoPathGroup, leftPathGroup, rightPathGroup;
+  List<PathPlannerTrajectory> leftPathGroup, rightPathGroup;
+  List<PathPlannerTrajectory> autoPathGroup;
 
 
      
