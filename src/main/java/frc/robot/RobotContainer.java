@@ -6,6 +6,7 @@ package frc.robot;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 import com.pathplanner.lib.PathPlanner;
 import com.pathplanner.lib.PathPlannerTrajectory;
@@ -57,7 +58,7 @@ public class RobotContainer {
 
   private boolean isIntegratedSteering = true;
   SwerveAutoBuilder autoBuilder;
-  ArrayList<PathPlannerTrajectory> autoPathGroup, leftPathGroup, rightPathGroup;
+  List<PathPlannerTrajectory> autoPathGroup, leftPathGroup, rightPathGroup;
 
 
      
